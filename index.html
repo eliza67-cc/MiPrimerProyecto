@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"><a class="brand" href="#inicio"><span class="bow">୨୧</span><span>PRACTICA 3ER PARCIAL<small>ideas y código ♡</small></span></a><nav><a href="#inicio">Inicio</a><a href="#articulos">Artículos</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto">Contacto</a></nav><button class="menu" aria-label="Abrir menú" onclick="document.querySelector('.nav nav').classList.toggle('show')">☰</button></header>
+<main id="inicio">
+<section class="hero">
+<div class="hero-photo"><img src="https://i.pinimg.com/736x/ef/fe/6f/effe6ff2a45a36b9df00143c8bf7825c.jpg" alt="Computadora en un escritorio"><span class="sticker">made with ♡</span></div>
+<div class="hero-copy"><div class="eyebrow">✦ BIENVENIDOS✦</div><div class="mini-bow">୨୧</div><h1>Ideas<br><em>códigos</em></h1><p>Unas ideas para aprender programación, descubrir herramientas digitales y convertir pequeñas ideas en grandes proyectos.</p><a class="btn" href="#articulos">Explorar artículos ↗</a><span class="scribble">aprende • crea • comparte ♡</span></div>
+</section>
+<div class="ticker">✿ creatividad &nbsp; ✦ programación &nbsp; ♡ aprendizaje &nbsp; ✿ proyectos &nbsp; ✦ tecnología &nbsp; ♡ inspiración ✿</div>
+<section class="articles wrap" id="articulos"><div class="section-label">THE LITTLE BLOG · 2026</div><h2>Últimos <em>artículos</em></h2><p class="intro">Notas, ideas y descubrimientos para crecer en el mundo digital.</p>
+<div class="cards">
+<article class="card"><div class="pic"><img src="https://img.freepik.com/fotos-premium/fondo-blanco-simbolo-que-representa-industria-programacion_117038-63668.jpg" alt="Pantalla con código"><span class="tag">PROGRAMACIÓN</span></div><div class="card-body"><span class="date">01 / APRENDER</span><h3>¿Qué es programar?</h3><p>Descubre cómo las instrucciones se transforman en aplicaciones, páginas y soluciones para la vida diaria.</p><button class="read" data-article="0">Leer artículo ↗</button></div></article>
+<article class="card"><div class="pic"><img src="https://5.imimg.com/data5/SELLER/Default/2023/9/345330647/EY/NG/EC/191218515/python-software-development-500x500.jpg" alt="Computadoras y herramientas de trabajo"><span class="tag">HERRAMIENTAS</span></div><div class="card-body"><span class="date">02 / EXPLORAR</span><h3>Herramientas digitales</h3><p>Conoce VS Code, Git y GitHub, tres aliados para crear proyectos y colaborar con otras personas.</p><button class="read" data-article="1">Leer artículo ↗</button></div></article>
+<article class="card"><div class="pic"><img src="https://images.pexels.com/photos/31343632/pexels-photo-31343632.jpeg?cs=srgb&dl=pexels-peaky-31343632.jpg&fm=jpg" alt="Cuaderno de apuntes y estudio"><span class="tag">ESTUDIO</span></div><div class="card-body"><span class="date">03 / INSPIRARSE</span><h3>Consejos para estudiar</h3><p>Organiza tus sesiones, practica a diario y aprende a documentar tus avances sin perder la motivación.</p><button class="read" data-article="2">Leer artículo ↗</button></div></article>
+</div></section>
+<section class="about" id="sobre-mi"><div class="wrap about-inner"><div><span class="section-label">A LITTLE ABOUT THIS SPACE</span><h2>Aprender también<br>puede ser <em>creativo.</em></h2></div><p>Este blog es un proyecto escolar para compartir conocimientos de programación de forma clara, visual y accesible. Aquí cada idea es una oportunidad para practicar algo nuevo. ♡</p></div></section>
+<section class="contact wrap" id="contacto"><span>✿ ¿TIENES UNA IDEA?</span><h2>¡Sigamos creando!</h2><p>Comparte este proyecto y continúa aprendiendo.</p><a class="btn" href="#inicio">Volver al inicio ↑</a></section>
+</main>
+<footer>୨୧ CÓDIGO CREATIVO · PROYECTO · HECHO POR EMMA ♡</footer>
+<dialog id="articleDialog"><button class="close" aria-label="Cerrar">×</button><span class="section-label">CÓDIGO CREATIVO ♡</span><h2 id="modalTitle"></h2><div id="modalText"></div></dialog>
+<script src="script.js"></script>
+</body></html>
